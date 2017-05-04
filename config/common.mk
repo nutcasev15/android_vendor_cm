@@ -100,15 +100,11 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     CMAudioService \
     CMParts \
-    Development \
-    Profiles \
     WeatherManagerService
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
     libemoji \
-    LiveWallpapersPicker \
-    PhotoTable \
     Terminal
 
 # Include explicitly to work around GMS issues
@@ -118,15 +114,11 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    AudioFX \
     CMSettingsProvider \
     LineageSetupWizard \
-    Eleven \
     ExactCalculator \
     Jelly \
     LockClock \
-    Trebuchet \
-    Updater \
     WallpaperPicker \
     WeatherProvider
 
