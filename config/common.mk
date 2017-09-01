@@ -162,6 +162,11 @@ PRODUCT_PACKAGES += \
     libhealthd.cm
 endif
 
+# Launcher App Version - LAV
+LAV := 1.1.0.1223
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/Lawnchair/$(LAV).apk:system/priv-app/Lawnchair/Lawnchair.apk
+
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
