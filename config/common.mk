@@ -126,6 +126,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Exchange2
 
+# OTA support
+PRODUCT_PACKAGES += \
+    SlimOTA
+
 # Extra tools in CM
 PRODUCT_PACKAGES += \
     7z \
