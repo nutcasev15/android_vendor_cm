@@ -165,7 +165,7 @@ endif
 # Lawnchair App Version - LAV
 LAV := 1.1.0.1742
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/Lawnchair/$(LAV).apk:system/priv-app/Lawnchair/Lawnchair.apk
+    vendor/cm/prebuilt/Lawnchair/$(LAV).apk:system/app/Lawnchair/Lawnchair.apk
 
 # ExFAT support
 WITH_EXFAT ?= true
