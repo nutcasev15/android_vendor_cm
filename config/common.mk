@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # Lawnchair App Version - LAV
-LAV := 1.1.0.1872
+LAV := 1.2.0.1878
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Lawnchair/$(LAV).apk:system/app/Lawnchair/Lawnchair.apk
 
